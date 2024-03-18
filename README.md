@@ -22,7 +22,7 @@ This project introduces an advanced anomaly detection system designed to improve
 </div>
 
 <video controls="" width="800" height="500" muted="" loop="" autoplay="">
-<source src="./pictures/output_video_JP_4_2024-03-17_21-19-03.mp4" type="video/mp4">
+<source src="https://github.com/JiayouQin/H-Splitter/blob/main/pictures/output_video_JP_4_2024-03-17_21-19-03.mp4" type="video/mp4">
 </video>
 
 
