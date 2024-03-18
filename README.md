@@ -27,7 +27,7 @@ This project introduces an advanced anomaly detection system designed to improve
 </video>
 
 <video width="320" height="240" controls>
-  <source type="video/mp4" src="https://robocop79.github.io/Websiteland//Twitter/FLT.mp4">
+  <source type="video/mp4" src="https://github.com/JiayouQin/H-Splitter/blob/main/pictures/output_video_JP_4_2024-03-17_21-19-03.mp4">
 </video>
 
 
