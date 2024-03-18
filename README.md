@@ -1,26 +1,36 @@
 
-# Anomaly Detection System for Enhanced Navigation Safety
+# H-Splitter: Anomaly Detection for Enhanced Navigation
+
+See our another project for the practical implementation and testing:
+![](https://github.com/AIS-Clemson/VisionGPT)
+
+## Overview
+This project introduces an advanced anomaly detection system designed to improve navigation safety for visually impaired individuals and robotic navigation systems. At the heart of this system is an innovative image processing technique that employs an 'H' pattern segmentation, analyzing real-time imagery to accurately identify and categorize potential hazards.
+
 
 ![](https://github.com/JiayouQin/H_segmentation/blob/main/pictures/H_segmentation.jpeg?raw=true)
-## Overview
-This anomaly detection system is designed to enhance navigation safety and situational awareness for visually impaired individuals and other entities requiring navigation assistance, such as robotic systems. Utilizing real-time imagery captured from a camera, the system employs an innovative 'H' pattern segmentation to analyze the environment and identify potential hazards effectively.
 
-## System Description
-The core of the system lies in its ability to categorize detected objects within the captured image into four distinct types, based on their spatial location. These categories are aligned with specific segments of the 'H' pattern segmentation, namely:
 
-- **Left**: Objects located on the left 25% of the image. These are typically in motion and may occupy a significant portion of the visual field.
-- **Right**: Similar to the Left category but for objects on the right 25% of the image. It's crucial for identifying moving hazards such as vehicles or cyclists.
-- **Front**: Focuses on the central 50% of the image's width and the upper half vertically. This region is essential for recognizing objects that are still at a distance but directly ahead, facilitating overall situational assessment and movement planning.
-- **Ground**: Occupies the central 50% of the image's width and the lower half vertically, highlighting nearby ground objects. Immediate attention to this area is vital for avoiding close-proximity hazards.
+## H-Pattern Segmentation
+The 'H' pattern segmentation method divides the captured image into four strategic regions: **Left**, **Right**, **Front**, and **Ground**. This spatial categorization facilitates a nuanced understanding of the environment, enabling the system to focus on areas of interest and ignore irrelevant detections. The segmentation works as follows:
 
-## Data Interpretation
-The system records detailed information for each detected object, including its classification, size, and position, with all measurements expressed in percentage terms relative to the image dimensions. This standardized approach ensures better compatibility and interpretation by Large Language Models (LLMs).
+- **Left/Right**: Occupying the outer 25% on either side of the image, these regions are pivotal for detecting moving objects such as vehicles or cyclists that could pose lateral threats.
+- **Front**: The central 50% of the image, extending vertically in the upper half, focuses on distant objects directly ahead, aiding in long-range navigation planning.
+- **Ground**: This area covers the central 50% widthwise and the lower half vertically, highlighting objects on or near the ground that could present immediate obstacles.
 
-## Anomaly Alerts
-Anomalies trigger alerts for objects appearing in the 'Ground' area or occupying significant space (greater than 10% in this study) in either the 'Left' or 'Right' regions. This feature is critical for preemptively identifying and responding to potential navigation hazards.
 
-## Structured Data for LLM
-Detection and movement data undergo post-processing to be structured in a format conducive to LLM analysis. This step enhances the system's ability to generate accurate and contextually relevant alerts, further improving navigation safety for users.
+## Image Processing Techniques
+To enhance the accuracy and reliability of object detection, the system incorporates sophisticated image processing techniques, including stabilizers and frame compensation. These methods ensure that environmental analysis remains consistent and accurate, even in dynamic or unstable conditions. Key features include:
 
-## Conclusion
-This anomaly detection system represents a significant advancement in accessible technology, offering a new level of environmental awareness and safety for visually impaired individuals and automated navigation systems alike.
+- **Image Stabilization**: Counteracts camera shake and motion blur, ensuring that object detection is based on stable and clear imagery.
+- **Frame Compensation**: Adjusts for rapid scene changes or object movements, maintaining accurate object categorization and positional tracking over time.
+
+## Anomaly Detection and Alerts
+Anomalies trigger alerts for objects detected in the 'Ground' area or those occupying significant space in the 'Left' or 'Right' regions. By focusing on these critical areas, the system efficiently identifies potential navigation hazards. Alert generation is based on object characteristics such as size (objects occupying >10% of the region), position, and movement patterns, providing users with actionable information.
+
+
+## Contributions and Feedback
+We welcome contributions and feedback to improve the H-Pattern Anomaly Detection system. Please feel free to open issues or submit pull requests with enhancements, bug fixes, or suggestions. Let's work together to make navigation safer for everyone.
+
+
+
