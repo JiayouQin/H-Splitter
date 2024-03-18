@@ -42,8 +42,9 @@ The 'H' pattern segmentation method divides the captured image into four strateg
 ## Image Processing Techniques
 To enhance the accuracy and reliability of object detection, the system incorporates sophisticated image processing techniques, including stabilizers and frame compensation. These methods ensure that environmental analysis remains consistent and accurate, even in dynamic or unstable conditions. Key features include:
 
-- **Image Stabilization**: Counteracts camera shake and motion blur, ensuring that object detection is based on stable and clear imagery.
+- **Image Stabilization**: Counteracts camera shake, ensuring that object detection is based on stable and clear imagery.
 - **Frame Compensation**: Adjusts for rapid scene changes or object movements, maintaining accurate object categorization and positional tracking over time.
+- **Vanishing Point Estimation**: Using different techniques to estimate the vanishing point as a reference for segmentation
 
 ## Anomaly Detection and Alerts
 Anomalies trigger alerts for objects detected in the 'Ground' area or those occupying significant space in the 'Left' or 'Right' regions. By focusing on these critical areas, the system efficiently identifies potential navigation hazards. Alert generation is based on object characteristics such as size (objects occupying >10% of the region), position, and movement patterns, providing users with actionable information.
@@ -55,7 +56,6 @@ We welcome contributions and feedback to improve the H-Pattern Anomaly Detection
 ### Original contribution:
 - Jiayou Qin (Stevens Institute of Technology)
 - Hao Wang (Clemson)
--
 
 
 
