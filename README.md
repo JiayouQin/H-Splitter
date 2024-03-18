@@ -2,7 +2,7 @@
 # H-Splitter: Anomaly Detection for Enhanced Navigation
 
 See our another project for the practical implementation and testing:
-![](https://github.com/AIS-Clemson/VisionGPT)
+![AIS-Clemson/VisionGPT](https://github.com/AIS-Clemson/VisionGPT)
 
 ## Overview
 This project introduces an advanced anomaly detection system designed to improve navigation safety for visually impaired individuals and robotic navigation systems. At the heart of this system is an innovative image processing technique that employs an 'H' pattern segmentation, analyzing real-time imagery to accurately identify and categorize potential hazards.
