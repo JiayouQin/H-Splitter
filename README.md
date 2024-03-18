@@ -3,8 +3,7 @@
 
 <br>
 See our another project for the practical implementation and testing:
-[AIS-Clemson/VisionGPT](https://github.com/AIS-Clemson/VisionGPT)
-
+[AIS-Clemson/VisionGPT](https://github.com/AIS-Clemson/VisionGPT){:target="_blank"}
 
 
 ## Overview
