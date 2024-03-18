@@ -1,6 +1,7 @@
 
 # Anomaly Detection System for Enhanced Navigation Safety
 
+![](https://github.com/JiayouQin/H_segmentation/blob/main/pictures/H_segmentation.jpeg?raw=true)
 ## Overview
 This anomaly detection system is designed to enhance navigation safety and situational awareness for visually impaired individuals and other entities requiring navigation assistance, such as robotic systems. Utilizing real-time imagery captured from a camera, the system employs an innovative 'H' pattern segmentation to analyze the environment and identify potential hazards effectively.
 
