@@ -15,6 +15,13 @@ This project introduces an advanced anomaly detection system designed to improve
 </div>
 
 
+<div id="videoContainer">
+    <video id="H-Splitter test" controls autoplay>
+    <source src="./pictures/output_video_JP_4_2024-03-17_21-19-03.mp4" type="video/mp4">
+    </video>
+</div>
+
+
 ## H-Pattern Segmentation
 The 'H' pattern segmentation method divides the captured image into four strategic regions: **Left**, **Right**, **Front**, and **Ground**. This spatial categorization facilitates a nuanced understanding of the environment, enabling the system to focus on areas of interest and ignore irrelevant detections. The segmentation works as follows:
 
