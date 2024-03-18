@@ -39,7 +39,7 @@ The 'H' pattern segmentation method divides the captured image into four strateg
 - **Ground**: This area covers the central 50% widthwise and the lower half vertically, highlighting objects on or near the ground that could present immediate obstacles.
 
 
-## Image Processing Techniques
+## Image Processing Techniques(work in progress)
 To enhance the accuracy and reliability of object detection, the system incorporates sophisticated image processing techniques, including stabilizers and frame compensation. These methods ensure that environmental analysis remains consistent and accurate, even in dynamic or unstable conditions. Key features include:
 
 - **Image Stabilization**: Counteracts camera shake, ensuring that object detection is based on stable and clear imagery.
