@@ -9,7 +9,7 @@ This project introduces an advanced anomaly detection system designed to improve
 
 
 <div style="text-align: center;">
-    <img src="./pictures/H_segmentation.jpeg" alt="H-Splitting" style="width: 50%; margin: 0 auto;">
+    <img src="./pictures/H_segmentation.jpeg" alt="H-Splitting" style="width: 50%;">
 </div>
 
 
