@@ -1,6 +1,7 @@
 
 # H-Splitter: Anomaly Detection for Enhanced Navigation
-H-Splitter is a method proposed by Hao Wang(Clemson) in 2024 to simplify the complexity of visual information.<br>
+
+<br>
 See our another project for the practical implementation and testing:
 <a href="https://github.com/AIS-Clemson/VisionGPT" target="_blank">AIS-Clemson/VisionGPT</a>
 
@@ -33,6 +34,11 @@ Anomalies trigger alerts for objects detected in the 'Ground' area or those occu
 
 ## Contributions and Feedback
 We welcome contributions and feedback to improve the H-Pattern Anomaly Detection system. Please feel free to open issues or submit pull requests with enhancements, bug fixes, or suggestions. Let's work together to make navigation safer for everyone.
+
+### Original contribution:
+- Jiayou Qin (Stevens Institute of Technology)
+- Hao Wang (Clemson)
+-
 
 
 
