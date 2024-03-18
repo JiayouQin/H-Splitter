@@ -3,7 +3,7 @@
 
 <br>
 See our another project for the practical implementation and testing:
-[AIS-Clemson/VisionGPT](https://github.com/AIS-Clemson/VisionGPT){:target="_blank"}
+<a href="https://github.com/AIS-Clemson/VisionGPT" target="_blank">AIS-Clemson/VisionGPT</a>
 
 
 ## Overview
