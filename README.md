@@ -8,7 +8,7 @@ See our another project for the practical implementation and testing:
 This project introduces an advanced anomaly detection system designed to improve navigation safety for visually impaired individuals and robotic navigation systems. At the heart of this system is an innovative image processing technique that employs an 'H' pattern segmentation, analyzing real-time imagery to accurately identify and categorize potential hazards.
 
 
-<div style="text-align: center;">
+<div align="center">
     <img src="./pictures/H_segmentation.jpeg" alt="H-Splitting" style="width: 50%;">
 </div>
 
