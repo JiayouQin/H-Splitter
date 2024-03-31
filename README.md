@@ -48,6 +48,7 @@ We have used several image processing techniques for our H-splitter:
 <div align="center">
     <img src="./pictures/Motion Estimation with mask.gif" alt="H-Splitting" style="width: 50%;">
 </div>
+
 ## Anomaly Detection and Alerts
 Anomalies trigger alerts for objects detected in the 'Ground' area or those occupying significant space in the 'Left' or 'Right' regions. By focusing on these critical areas, the system efficiently identifies potential navigation hazards. Alert generation is based on object characteristics such as size (objects occupying >10% of the region), position, and movement patterns, providing users with actionable information.
 
