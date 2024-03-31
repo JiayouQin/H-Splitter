@@ -40,7 +40,7 @@ The 'H' pattern segmentation method divides the captured image into four strateg
 
 
 ## Image Processing Techniques
-To enhance the accuracy and reliability of object detection, the system incorporates sophisticated image processing techniques, including stabilizers and frame compensation. These methods ensure that environmental analysis remains consistent and accurate, even in dynamic or unstable conditions. Key features include:
+We have used several image processing techniques for our H-splitter:
 
 - **Video Stabilization**: Using Feature points extracted to counteract camera shake denoising vector extracted.
 - **Vanishing Point Estimation**: Using different techniques to estimate the vanishing point as a reference for segmentation
