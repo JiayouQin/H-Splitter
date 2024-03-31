@@ -42,7 +42,7 @@ The 'H' pattern segmentation method divides the captured image into four strateg
 ## Image Processing Techniques
 We have used several image processing techniques for our H-splitter:
 
-- **Video Stabilization**: Using Feature points extracted to counteract camera shake denoising vector extracted.
+- **Video Stabilization**: Using Feature points extracted to counteract camera shake, denoising vector extracted.
 - **Vanishing Point Estimation**: Using different techniques to estimate the vanishing point as a reference for segmentation
 - **Vanishing Point track analysis(WIP)** Using frequency analysis to detect anomalies in track analysis for further denoising.
 <div align="center">
