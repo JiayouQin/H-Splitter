@@ -42,9 +42,9 @@ The 'H' pattern segmentation method divides the captured image into four strateg
 ## Image Processing Techniques
 To enhance the accuracy and reliability of object detection, the system incorporates sophisticated image processing techniques, including stabilizers and frame compensation. These methods ensure that environmental analysis remains consistent and accurate, even in dynamic or unstable conditions. Key features include:
 
-- **Image Stabilization**: Counteracts camera shake, ensuring that object detection is based on stable and clear imagery.
-- **Frame Compensation**: Adjusts for rapid scene changes or object movements, maintaining accurate object categorization and positional tracking over time.
+- **Video Stabilization**: Using Feature points extracted to counteract camera shake denoising vector extracted.
 - **Vanishing Point Estimation**: Using different techniques to estimate the vanishing point as a reference for segmentation
+- **Vanishing Point track analysis(WIP)** Using frequency analysis to detect anomalies in track analysis for further denoising.
 <div align="center">
     <img src="./pictures/Motion Estimation with mask.gif" alt="H-Splitting" style="width: 50%;">
 </div>
