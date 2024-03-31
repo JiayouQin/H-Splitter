@@ -59,5 +59,13 @@ We welcome contributions and feedback to improve the H-Pattern Anomaly Detection
 - Jiayou Qin (Stevens Institute of Technology)
 - Hao Wang (Clemson)
 
+### Acknowledgements:
 
+We have experimented with depth estimation with monocular images.
+@inproceedings{depthanything,
+      title={Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data}, 
+      author={Yang, Lihe and Kang, Bingyi and Huang, Zilong and Xu, Xiaogang and Feng, Jiashi and Zhao, Hengshuang},
+      booktitle={CVPR},
+      year={2024}
+}
 
