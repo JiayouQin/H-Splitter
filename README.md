@@ -15,7 +15,7 @@ This project introduces an advanced anomaly detection system designed to improve
 </div>
 
 <div align="center">
-    <img src="./pictures/HsplitterV1.gif" alt="H-Splitting" style="width: 50%;">
+    <img src="./pictures/HsplitterV2_2.gif" alt="H-Splitting" style="width: 50%;">
 </div>
 
 
