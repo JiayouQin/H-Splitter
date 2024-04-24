@@ -51,12 +51,4 @@ We welcome contributions and feedback to improve the H-Pattern Anomaly Detection
 ### Acknowledgements:
 
 We have experimented with depth estimation with monocular images based on [Depth anything](https://github.com/LiheYoung/Depth-Anything/tree/main).
-```bibtex
-@inproceedings{depthanything,
-      title={Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data}, 
-      author={Yang, Lihe and Kang, Bingyi and Huang, Zilong and Xu, Xiaogang and Feng, Jiashi and Zhao, Hengshuang},
-      booktitle={CVPR},
-      year={2024}
-}
-```
 
