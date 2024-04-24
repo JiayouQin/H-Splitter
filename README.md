@@ -34,7 +34,7 @@ We have used several image-processing techniques for our H-splitter:
 - **Vanishing Point Estimation**: Using different techniques to estimate the vanishing point as a reference for segmentation
 - **Vanishing Point track analysis** We used a low pass filter over the time axis for further smoothening.
 <div align="center">
-    <img src="./pictures/Motion Estimation with mask.gif" alt="H-Splitting" style="width: 50%;">
+    <img src="./pictures/HsplitterV2.gif" alt="H-Splitting" style="width: 50%;">
 </div>
 
 ## Anomaly Detection and Alerts
