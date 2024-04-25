@@ -1,0 +1,26 @@
+https://github.com/cudawarped/opencv-python-cuda-wheels/releases
+pip install opencv_contrib_python-4.9.0.80-cp37-abi3-win_amd64.whl
+
+conda install numpy protobuf hdf5 cudnn cudatoolkit
+
+import cv2
+print(cv2.__version__)
+
+# Check if CUDA is available in OpenCV
+print(cv2.cuda.getCudaEnabledDeviceCount())
+
+
+
+
+    # Create cuda matrix
+    gpu_previous = cv2.cuda_GpuMat()
+    gpu_current= cv2.cuda_GpuMat()
+    gpu_previous.upload(stabilized_gray1)
+    gpu_current.upload(gray2)
+    
+    # Calculate Optical Flow on GPU
+    gpu_flow = cv2.cuda_FarnebackOpticalFlow.create()
+    optical_flow = cv2.cuda_GpuMat()
+    img = gpu_flow.calc( gpu_previous, gpu_current, optical_flow, None )
+    flow = img.download()
+    
