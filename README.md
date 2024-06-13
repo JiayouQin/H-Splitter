@@ -6,13 +6,13 @@ See our another project for the practical implementation and testing:
 <a href="https://github.com/AIS-Clemson/VisionGPT" target="_blank">AIS-Clemson/VisionGPT</a>
 
 
-## Overview
-This project introduces an advanced anomaly detection system designed to improve navigation safety for visually impaired individuals and robotic navigation systems. At the heart of this system is an innovative image processing technique that employs an 'H' pattern segmentation, analyzing real-time imagery to accurately identify and categorize potential hazards.
-
-
 <div align="center">
     <img src="./pictures/H_segmentation.jpeg" alt="H-Splitting" style="width: 50%;">
 </div>
+
+
+## Overview
+This project introduces an advanced anomaly detection system designed to improve navigation safety for visually impaired individuals and robotic navigation systems. At the heart of this system is an innovative image processing technique that employs an 'H' pattern segmentation, analyzing real-time imagery to accurately identify and categorize potential hazards.
 
 <div align="center">
     <img src="./pictures/HsplitterV2_2.gif" alt="H-Splitting" style="width: 50%;">
