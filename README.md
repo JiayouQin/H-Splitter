@@ -1,5 +1,6 @@
 
-# Ego-Motion Prediction with All-Pixel Matching - Enhanced Navigation for Blind Guidance
+# Ego-Motion Prediction with All-Pixel Matching 
+## Enhanced Navigation for Blind Guidance
 
 <br>
 See our another project for the practical implementation and testing:
