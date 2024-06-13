@@ -50,5 +50,3 @@ We welcome contributions and feedback to improve the H-Pattern Anomaly Detection
 
 ### Acknowledgements:
 
-We have experimented with depth estimation with monocular images based on [Depth anything](https://github.com/LiheYoung/Depth-Anything/tree/main).
-
