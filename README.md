@@ -20,7 +20,7 @@ This project introduces an advanced anomaly detection system designed to improve
 
 
 ## H-Pattern Segmentation
-The 'H' pattern segmentation method divides the captured image into 3 regions: **irrelevant**, **Notify(Green)**, **Warning(Yellow)**, and **Ground**.
+The 'H' pattern segmentation method divides the captured image into 3 regions: **irrelevant**, **Notify(Green)** and **Warning(Yellow)**.
 This code assumes that the camera is held aiming at the horizon line and does not use gyroscope to process the orientation.
 
 ## Image Processing Techniques
