@@ -20,19 +20,15 @@ This project introduces an advanced anomaly detection system designed to improve
 
 
 ## H-Pattern Segmentation
-The 'H' pattern segmentation method divides the captured image into four strategic regions: **Left**, **Right**, **Front**, and **Ground**. This spatial categorization facilitates a nuanced understanding of the environment, enabling the system to focus on areas of interest and ignore irrelevant detections. The segmentation works as follows:
-
-- **Left/Right**: Occupying the outer 25% on either side of the image, these regions are pivotal for detecting moving objects such as vehicles or cyclists that could pose lateral threats.
-- **Front**: The central 50% of the image, extending vertically in the upper half, focuses on distant objects directly ahead, aiding in long-range navigation planning.
-- **Ground**: This area covers the central 50% widthwise and the lower half vertically, highlighting objects on or near the ground that could present immediate obstacles.
-
+The 'H' pattern segmentation method divides the captured image into 3 regions: **irrelevant**, **Notify(Green)**, **Warning(Yellow)**, and **Ground**.
+This code assumes that the camera is held aiming at the horizon line and does not use gyroscope to process the orientation.
 
 ## Image Processing Techniques
 We have used several image-processing techniques for our H-splitter:
 
-- **Video Stabilization**: We used SVD to estimate the affine transformation matrix from Feature points extracted in two consecutive frames to counteract camera shake, denoising vector extracted.
+- **Video Stabilization**: We used SVD and optical flow to estimate the affine transformation matrix from Feature points extracted in two consecutive frames to counteract camera shake, denoising vector extracted.
 - **Vanishing Point Estimation**: Using different techniques to estimate the vanishing point as a reference for segmentation
-- **Vanishing Point track analysis** We used a low pass filter over the time axis for further smoothening.
+- **Vanishing Point track analysis** We used a low pass filter over consecutive frames for further smoothening.
 <div align="center">
     <img src="./pictures/HsplitterV2.gif" alt="H-Splitting" style="width: 50%;">
 </div>
