@@ -43,19 +43,19 @@ To evaluate the performance of Motor Focus, we collected a custom dataset to tes
 
 ### Biking in the narrow street:
 <div align="center">
-    <img src="./gif/JP_11.MOV_2024-04-17_04-03-01.gif" alt="demo" style="width: 100%;">
+    <img src="./gif/JP_11.gif" alt="demo" style="width: 100%;">
 </div>
 
 ### Street walk:
 
 <div align="center">
-    <img src="./gif/london.gif" alt="london" style="width: 100%;">
+    <img src="./gif/London_1.gif" alt="london" style="width: 100%;">
 </div>
 
 <br>
 
 <div align="center">
-    <img src="./gif/4K City Walks Old Street to Tower Bridge - London - Virtual Walk Walking Treadmill Video.gif" alt="walk" style="width: 100%;">
+    <img src="./gif/London_2.gif" alt="walk" style="width: 100%;">
 </div>
 
 
