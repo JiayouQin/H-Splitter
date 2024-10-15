@@ -2,47 +2,61 @@
 # Ego-Motion Prediction with All-Pixel Matching <br> Enhanced Navigation for Blind Guidance
 
 <br>
-See our another project for the practical implementation and testing:
-<a href="https://github.com/AIS-Clemson/VisionGPT" target="_blank">AIS-Clemson/VisionGPT</a>
-
-
-<div align="center">
-    <img src="./pictures/H_segmentation.jpeg" alt="H-Splitting" style="width: 50%;">
-</div>
 
 
 ## Overview
-This project introduces an advanced anomaly detection system designed to improve navigation safety for visually impaired individuals and robotic navigation systems. At the heart of this system is an innovative image processing technique that employs an 'H' pattern segmentation, analyzing real-time imagery to accurately identify and categorize potential hazards.
+
+This project introduces Motor Focus -- a lightweight, image-based framework designed to predict ego-motion, i.e., the movement intentions of humans (or humanoid machines), using visual input while filtering out camera motion without the need for camera calibration. The framework implements an optical flow-based pixel-wise temporal analysis to account for camera movement, enhanced by a Gaussian aggregation to smooth the predicted movement area.
 
 <div align="center">
     <img src="./pictures/HsplitterV2_2.gif" alt="H-Splitting" style="width: 50%;">
 </div>
 
 
-## H-Pattern Segmentation
-The 'H' pattern segmentation method divides the captured image into 3 regions: **irrelevant**, **Notify(Green)** and **Warning(Yellow)**.
-This code assumes that the camera is held aiming at the horizon line and does not use gyroscope to process the orientation.
 
-## Image Processing Techniques
-We have used several image-processing techniques for our H-splitter:
+## Background
+Assistive visual navigation systems for visually impaired individuals have gained popularity with the advent of mobile computing. These systems typically translate visual information into voice commands, enabling users to navigate complex environments. However, in scenarios with multiple objects, it becomes crucial to prioritize object detection and provide timely notifications for key entities based on their direction. One of the core challenges is identifying the user's movement direction (ego-motion) solely from visual data—a gap that this project addresses.
 
-- **Video Stabilization**: We used SVD and optical flow to estimate the affine transformation matrix from Feature points extracted in two consecutive frames to counteract camera shake, denoising vector extracted.
-- **Vanishing Point Estimation**: Using different techniques to estimate the vanishing point as a reference for segmentation
-- **Vanishing Point track analysis** We used a low pass filter over consecutive frames for further smoothening.
+
+
+## Features
+Our framework mainly predicts ego-motion by identifying how users physically orient themselves in space through pixel-wise temporal analysis. 
+
+- **Fast & Efficient**: Capable of over 40 FPS, our framework is optimized for real-time applications on mobile devices.
+- **Accurate**: The method achieves an MAE of 60 pixels and SNR of 23 dB, outperforming existing techniques.
+- **Robust**: Filters out unintended camera movements to focus solely on the observer's motion.
+- **Video Stabilization**: To counteract camera shake, we used SVD and optical flow to estimate the affine transformation matrix from feature points extracted in two consecutive frames.
+- **Camera Motion Compensation**: The fusion of two consecutive frames filters the camera motion, which highlights the object that moves relatively with the observer.
+
 <div align="center">
     <img src="./pictures/HsplitterV2.gif" alt="H-Splitting" style="width: 50%;">
 </div>
 
-## Anomaly Detection and Alerts
-Anomalies trigger alerts for objects detected in the 'Ground' area or those occupying significant space in the 'Left' or 'Right' regions. By focusing on these critical areas, the system efficiently identifies potential navigation hazards. Alert generation is based on object characteristics such as size (objects occupying >10% of the region), position, and movement patterns, providing users with actionable information.
+
+## Results
+To evaluate the performance of Motor Focus, we collected a custom dataset to test the accuracy, robustness, and efficiency. As shown below, the advantage of our method among others is the key points matching time.
+
+<div align="center">
+    <img src="./pictures/HsplitterV2.gif" alt="H-Splitting" style="width: 50%;">
+</div>
+
 
 
 ## Contributions and Feedback
 We welcome contributions and feedback to improve the H-Pattern Anomaly Detection system. Please feel free to open issues or submit pull requests with enhancements, bug fixes, or suggestions. Let's work together to make navigation safer for everyone.
 
+
 ### Original contribution:
 - Jiayou Qin (Stevens Institute of Technology)
 - Hao Wang (Clemson)
 
+
 ### Acknowledgements:
+
+See our another project for the practical implementation and testing:
+<a href="https://github.com/AIS-Clemson/VisionGPT" target="_blank">AIS-Clemson/VisionGPT</a>
+
+<div align="center">
+    <img src="./pictures/H_segmentation.jpeg" alt="H-Splitting" style="width: 50%;">
+</div>
 
