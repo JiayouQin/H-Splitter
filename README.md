@@ -1,10 +1,6 @@
 
 # Ego-Motion Prediction with All-Pixel Matching 
 
-<be> 
-
-Enhanced Navigation for Blind Guidance
-
 <br>
 
 
