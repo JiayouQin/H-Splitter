@@ -24,7 +24,7 @@ Our framework mainly predicts ego-motion by identifying how users physically ori
 - **Camera Motion Compensation**: The fusion of two consecutive frames filters the camera motion, which highlights the object that moves relatively with the observer.
 
 <div align="center">
-    <img src="./pictures/HsplitterV2.gif" alt="H-Splitting" style="width: 50%;">
+    <img src="./pictures/HsplitterV2.gif" alt="H-Splitting" style="width: and 100%;">
 </div>
 
 
