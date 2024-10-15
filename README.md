@@ -40,12 +40,15 @@ To evaluate the performance of Motor Focus, we collected a custom dataset to tes
 - **Robust**: Filters out unintended camera movements to focus solely on the observer's motion.
 
 ## Demo
+
+### Biking in the narrow street:
 <div align="center">
-    <img src="./gif/JP_11.MOV_2024-04-17_04-03-01.gif" alt="demo" style="width: 50%;">
+    <img src="./gif/JP_11.MOV_2024-04-17_04-03-01.gif" alt="demo" style="width: 100%;">
 </div>
 
+### Street walk:
 <div align="center">
-    <img src="./gif/Central London Sunset Walk  Relaxing Evening Walk through West End [4K HDR].gif" alt="demo" style="width: 50%;">
+    <img src="./gif/Central London Sunset Walk  Relaxing Evening Walk through West End [4K HDR].gif" alt="demo" style="width: 100%;">
 </div>
 
 <div align="center">
