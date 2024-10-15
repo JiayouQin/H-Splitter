@@ -35,7 +35,7 @@ To evaluate the performance of Motor Focus, we collected a custom dataset to tes
     <img src="./pictures/table.png" alt="table" style="width: 50%;">
 </div>
 
-- **Fast & Efficient**: Capable of over 40 FPS, our framework is optimized for real-time applications on mobile devices.
+- **Fast & Efficient**: Capable of over 50 FPS, our framework is optimized for real-time applications on mobile devices.
 - **Accurate**: The method achieves an MAE of 60 pixels and SNR of 23 dB, outperforming existing techniques.
 - **Robust**: Filters out unintended camera movements to focus solely on the observer's motion.
 
@@ -51,7 +51,7 @@ We welcome contributions and feedback to improve the H-Pattern Anomaly Detection
 
 ### Acknowledgements:
 
-See our another project for the practical implementation and testing:
+See another project for the practical implementation and testing:
 <a href="https://github.com/AIS-Clemson/VisionGPT" target="_blank">AIS-Clemson/VisionGPT</a>
 
 <div align="center">
