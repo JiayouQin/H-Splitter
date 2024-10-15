@@ -49,7 +49,7 @@ We welcome contributions and feedback to improve the H-Pattern Anomaly Detection
 - Hao Wang (Clemson)
 
 
-### Acknowledgements:
+### Related Work:
 
 See another project for the practical implementation and testing:
 <a href="https://github.com/AIS-Clemson/VisionGPT" target="_blank">AIS-Clemson/VisionGPT</a>
