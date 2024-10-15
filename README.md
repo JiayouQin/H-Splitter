@@ -52,7 +52,7 @@ To evaluate the performance of Motor Focus, we collected a custom dataset to tes
 </div>
 
 <div align="center">
-    <img src="./gif/4K City Walks Old Street to Tower Bridge - London - Virtual Walk Walking Treadmill Video.gif" alt="demo" style="width: 50%;">
+    <img src="./gif/4K City Walks Old Street to Tower Bridge - London - Virtual Walk Walking Treadmill Video.gif" alt="demo" style="width: 100%;">
 </div>
 
 
