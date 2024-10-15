@@ -37,7 +37,7 @@ Our framework mainly predicts ego-motion by identifying how users physically ori
 To evaluate the performance of Motor Focus, we collected a custom dataset to test the accuracy, robustness, and efficiency. As shown below, the advantage of our method among others is the key points matching time.
 
 <div align="center">
-    <img src="./pictures/HsplitterV2.gif" alt="H-Splitting" style="width: 50%;">
+    <img src="./pictures/table.png" alt="table" style="width: 50%;">
 </div>
 
 
