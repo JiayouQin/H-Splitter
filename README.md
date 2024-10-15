@@ -58,6 +58,10 @@ To evaluate the performance of Motor Focus, we collected a custom dataset to tes
     <img src="./gif/London_2.gif" alt="walk" style="width: 100%;">
 </div>
 
+### E scooter:
+<div align="center">
+    <img src="./gif/NJ_3_1.gif" alt="e" style="width: 100%;">
+</div>
 
 ## Contributions and Feedback
 We welcome contributions and feedback to improve the H-Pattern Anomaly Detection system. Please feel free to open issues or submit pull requests with enhancements, bug fixes, or suggestions. Let's work together to make navigation safer for everyone.
