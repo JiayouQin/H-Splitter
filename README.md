@@ -48,11 +48,11 @@ To evaluate the performance of Motor Focus, we collected a custom dataset to tes
 
 ### Street walk:
 <div align="center">
-    <img src="./gif/Central London Sunset Walk  Relaxing Evening Walk through West End [4K HDR].gif" alt="london" style="width: 100%;">
+    <img src="./gif/london.gif" alt="london" style="width: 100%;">
 </div>
 
 <div align="center">
-    <img src="./gif/london.gif" alt="walk" style="width: 100%;">
+    <img src="./gif/4K City Walks Old Street to Tower Bridge - London - Virtual Walk Walking Treadmill Video.gif" alt="walk" style="width: 100%;">
 </div>
 
 
