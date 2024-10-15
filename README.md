@@ -1,8 +1,6 @@
 
 # Ego-Motion Prediction with All-Pixel Matching 
 
-<br>
-
 
 ## Overview
 
