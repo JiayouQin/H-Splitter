@@ -20,9 +20,6 @@ Assistive visual navigation systems for visually impaired individuals have gaine
 ## Features
 Our framework mainly predicts ego-motion by identifying how users physically orient themselves in space through pixel-wise temporal analysis. 
 
-- **Fast & Efficient**: Capable of over 40 FPS, our framework is optimized for real-time applications on mobile devices.
-- **Accurate**: The method achieves an MAE of 60 pixels and SNR of 23 dB, outperforming existing techniques.
-- **Robust**: Filters out unintended camera movements to focus solely on the observer's motion.
 - **Video Stabilization**: To counteract camera shake, we used SVD and optical flow to estimate the affine transformation matrix from feature points extracted in two consecutive frames.
 - **Camera Motion Compensation**: The fusion of two consecutive frames filters the camera motion, which highlights the object that moves relatively with the observer.
 
@@ -38,6 +35,9 @@ To evaluate the performance of Motor Focus, we collected a custom dataset to tes
     <img src="./pictures/table.png" alt="table" style="width: 50%;">
 </div>
 
+- **Fast & Efficient**: Capable of over 40 FPS, our framework is optimized for real-time applications on mobile devices.
+- **Accurate**: The method achieves an MAE of 60 pixels and SNR of 23 dB, outperforming existing techniques.
+- **Robust**: Filters out unintended camera movements to focus solely on the observer's motion.
 
 
 ## Contributions and Feedback
