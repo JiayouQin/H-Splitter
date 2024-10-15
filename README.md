@@ -39,6 +39,19 @@ To evaluate the performance of Motor Focus, we collected a custom dataset to tes
 - **Accurate**: The method achieves an MAE of 60 pixels and SNR of 23 dB, outperforming existing techniques.
 - **Robust**: Filters out unintended camera movements to focus solely on the observer's motion.
 
+## Demo
+<div align="center">
+    <img src="./gif/JP_11.MOV_2024-04-17_04-03-01.gif" alt="demo" style="width: 50%;">
+</div>
+
+<div align="center">
+    <img src="./gif/Central London Sunset Walk  Relaxing Evening Walk through West End [4K HDR].gif" alt="demo" style="width: 50%;">
+</div>
+
+<div align="center">
+    <img src="./gif/4K City Walks Old Street to Tower Bridge - London - Virtual Walk Walking Treadmill Video.gif" alt="demo" style="width: 50%;">
+</div>
+
 
 ## Contributions and Feedback
 We welcome contributions and feedback to improve the H-Pattern Anomaly Detection system. Please feel free to open issues or submit pull requests with enhancements, bug fixes, or suggestions. Let's work together to make navigation safer for everyone.
