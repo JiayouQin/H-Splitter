@@ -33,7 +33,7 @@ Our framework mainly predicts ego-motion by identifying how users physically ori
 To evaluate the performance of Motor Focus, we collected a custom dataset to test the accuracy, robustness, and efficiency. As shown below, the advantage of our method among others is the key points matching time.
 
 <div align="center">
-    <img src="./pictures/table.png" alt="table" style="width: 50%;">
+    <img src="./pictures/table.png" alt="table" style="width: 80%;">
 </div>
 
 - **Fast & Efficient**: Capable of over 50 FPS, our framework is optimized for real-time applications on mobile devices.
