@@ -1,5 +1,9 @@
 
 # Ego-Motion Prediction with All-Pixel Matching 
+
+Paper (BSN 2024 accepted):
+<a href="https://arxiv.org/abs/2404.17031" target="_blank">Paper</a>
+
 Dataset download:
 <a href="https://drive.google.com/drive/folders/1HPEWBdEk4aKgus1h37ZkU2KJ964DxmwA?usp=sharing" target="_blank">Dataset</a>
 
